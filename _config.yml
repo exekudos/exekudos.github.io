@@ -4,10 +4,10 @@
 ####################################
 #
 title: Mohammed Ibrahim Khan
-email:
-description: A simple and awesome blog theme powered by jekyll.
+email: ibrahimkhan7777@gmail.com
+description: Machine learning, Deep learning, CNN, CV
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "ml"]
 
 #
 ###################################
@@ -35,8 +35,8 @@ kramdown:
 owner:
   name: Mohammed Ibrahim Khan
   avatar: 
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: 
+  bio: "Machine learning, Deep learning, CNN, CV"
   email: ibrahimkhan7777@gmail.com
   disqus-shortname:
   twitter: ibrahimKkhn
