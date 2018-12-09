@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "U-Net with SE-ResNet blocks"
 date:   2015-08-18 15:07:19
 categories: [tutorial]
 comments: true
