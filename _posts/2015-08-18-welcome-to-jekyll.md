@@ -4,9 +4,17 @@ title:  "U-Net with SE-ResNet blocks"
 categories: [tutorial]
 comments: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Squeeze-and-Excitation block (SE-block) was first proposed in the following paper:
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+https://arxiv.org/pdf/1709.01507v2.pdf
+
+Instead of an equal representation of all channels in a given layer, it suggests developing a weighted representation. The corresponding weights of each channel can be learned in the SE-block.
+It introduces an addition hyperparameter, r (ratio) to be used in the SE-block.
+For c number of channels, it attempts to learn a (sigmoidal) vector of size c (a tensor of 1x1xc to be exact) and multiplies it with the current tensor in the given layer.
+
+![alt text](https://cdn-images-1.medium.com/max/1600/1*WNk-atKDUsZPvMddvYL01g.png)
+
+Apart from ResNet, SE-blocks can also be implemented in other popular classification models such as Inception and DenseNet.
 
 <!--more-->
 
