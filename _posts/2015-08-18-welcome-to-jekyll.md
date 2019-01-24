@@ -15,12 +15,15 @@ For c number of channels, it attempts to learn a (sigmoidal) vector of size c (a
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*WNk-atKDUsZPvMddvYL01g.png)
 
 Apart from ResNet, SE-blocks can also be implemented in other popular classification models such as Inception and DenseNet.
+In this, SE-blocks will be implemented in U-Net, a popular segmentation model.
 
-<!--more-->
+U-net consists of two segments - a contracting segment followed by an expanding segment. The contracting segment consists of normal CNN operations such as convolutional, activation and pooling whereas expanding segment is composed of deconvolution and upsampling operations.
+The standard U-net architecture is given as:
 
-Jekyll also offers powerful support for code snippets:
+![alt text](http://deeplearning.net/tutorial/_images/unet.jpg)
 
-{% highlight ruby %}
+
+{% highlight python %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
@@ -28,7 +31,6 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
