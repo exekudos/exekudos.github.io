@@ -23,14 +23,6 @@ The standard U-net architecture is given as:
 ![alt text](http://deeplearning.net/tutorial/_images/unet.jpg)
 
 
-{% highlight python %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
