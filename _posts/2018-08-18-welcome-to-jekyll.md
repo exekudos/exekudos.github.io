@@ -22,7 +22,7 @@ The standard U-net architecture is given as:
 
 ![alt text](http://deeplearning.net/tutorial/_images/unet.jpg)
 
-
+Replacing each convolution operation with a SE-Resnet block produces an extremely deep architecture which may be useful in some difficult semantic segmentation problems.
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
