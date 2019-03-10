@@ -4,7 +4,6 @@ title:  "U-Net with SE-ResNet blocks"
 categories: [tutorial]
 comments: true
 ---
-
 Squeeze-and-Excitation block (SE-block) was first proposed in the following paper:
 
 https://arxiv.org/pdf/1709.01507v2.pdf
