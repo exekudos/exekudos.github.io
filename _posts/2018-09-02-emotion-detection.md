@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Emotion Detection from Facial Expressions"
-categories: [tutorial]
+categories: [paragraph]
 comments: true
 ---
 
