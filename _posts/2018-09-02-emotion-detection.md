@@ -23,6 +23,6 @@ After we train the network, we check its accuracy on the test dataset. In this n
 
 Now, this trained network can be deployed in softwares and devices to provide a variety of practical solutions. It yielded some pretty promising results when I deployed it on real time webcam feed.
 
-![alt text](./img/emot1.png)
+![alt text](../img/emot1.png)
 
 ![alt_text](https://drive.google.com/open?id=1dN1MQmaWRs_uPojwmnNmWPDVkcDvpSd0)
