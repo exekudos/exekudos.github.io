@@ -16,7 +16,7 @@ The architecture I used is adapted from Resnet18 but consists of 14 layers.
 
 Now, all the training images from the dataset are trained on this network and the network's parameters (weights and biases) are updated using Gradient Descent. The error/loss function decreases with the number of training iterations as illustrated in the graph below:
 
-![alt text](../img/graph.jpg)
+![alt text](../img/graph.jpeg)
 
 After we train the network, we check its accuracy on the test dataset. In this network the accuracy turned out to be 63% which is not that great but still satisfactory considering the size of the network, difficulty of the task and relatively minute differences among some emotions.
 
